@@ -30,6 +30,7 @@ defmodule CoverMyRelief.Mixfile do
     [
       {:httpoison, "~> 0.10.0"},
       {:poison, "~> 3.0"},
+      {:exvcr, "~> 0.7", only: :test },
     ]
   end
 end
