@@ -5,8 +5,8 @@ defmodule CoverMyRelief.Mixfile do
     [app: :cover_my_relief,
      version: "0.1.0",
      elixir: "~> 1.3",
-     build_embedded: Mix.env == :prod,
-     start_permanent: Mix.env == :prod,
+     description: description(),
+     package: package(),
      deps: deps()]
   end
 
@@ -31,6 +31,23 @@ defmodule CoverMyRelief.Mixfile do
       {:httpoison, "~> 0.10.0"},
       {:poison, "~> 3.0"},
       {:exvcr, "~> 0.7", only: :test },
+    ]
+  end
+
+  defp description do
+    """
+    Cover My Relief is an Elixir client to the CoverMyMeds API.
+    """
+  end
+
+  defp package do
+    [
+      files: ["lib", "mix.exs", "README.md"],
+      maintainers: ["Justin Rolston"],
+      licenses: [""],
+      links: %{
+        "GitHub" => "https://github.com/justinrolston/cover_my_relief"
+      }
     ]
   end
 end
