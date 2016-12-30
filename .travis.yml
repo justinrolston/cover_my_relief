@@ -1,8 +1,9 @@
-uage: elixir
+language: elixir
 elixir:
   - 1.3.4
-otp_release:
-  - 19
-
+install:
+  - mix do local.hex --force, local.rebar --force
+  - mix deps.get # need to explicitly get test deps, see mix.exs
+  - mix compile
 script:
   - mix test
