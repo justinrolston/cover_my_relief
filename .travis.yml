@@ -4,7 +4,6 @@ elixir:
   - 1.3.2
 otp_release:
   - 18.1
-sudo: false # to use faster container based build environment
 
 install:
   - mix local.rebar --force # for Elixir 1.3.0 and up
