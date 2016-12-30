@@ -1,4 +1,4 @@
-# CoverMyRelief ![Build Status](https://secure.travis-ci.org/parroty/exvcr.png?branch=master "Build Status")
+# CoverMyRelief ![Build Status](https://travis-ci.org/justinrolston/cover_my_relief.svg?branch=master "Build Status")
 
 Cover My Relief is an Elixir client to the CoverMyMeds API.
 
