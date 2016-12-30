@@ -1,9 +1,11 @@
 defmodule CoverMyRelief.Mixfile do
   use Mix.Project
 
+  @version String.strip(File.read!("VERSION"))
+
   def project do
     [app: :cover_my_relief,
-     version: "0.1.1",
+     version: @version,
      elixir: "~> 1.3",
      description: description(),
      package: package(),
