@@ -4,8 +4,6 @@ Cover My Relief is an Elixir client to the CoverMyMeds API.
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed as:
-
   1. Add `cover_my_relief` to your list of dependencies in `mix.exs`:
 
     ```elixir
