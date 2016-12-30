@@ -1,4 +1,4 @@
-# CoverMyRelief
+# CoverMyRelief [![Build Status](https://secure.travis-ci.org/parroty/exvcr.png?branch=master "Build Status")]
 
 **TODO: Add description**
 
