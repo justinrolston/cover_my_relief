@@ -13,4 +13,14 @@ defmodule CoverMyReliefTest do
 
     end
   end
+  
+  test "get drug" do
+    use_cassette "get_drug" do
+      api_client = %CoverMyRelief.Api{id: ""}
+      drug = CoverMyRelief.get_drug api_client, 169220
+      
+      assert is_map drug
+
+    end
+  end
 end

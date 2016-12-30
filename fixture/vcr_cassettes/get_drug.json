@@ -1,0 +1,35 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://api.covermymeds.com/drugs/169220/?api_id=&v=1"
+    },
+    "response": {
+      "body": "{\"drug\":{\"id\":\"169220\",\"gpi\":\"30042048102030\",\"sort_group\":null,\"sort_order\":null,\"name\":\"Boniva\",\"route_of_administration\":\"IV\",\"dosage_form\":\"SOLN\",\"strength\":\"3\",\"strength_unit_of_measure\":\"MG/3ML\",\"dosage_form_name\":\"solution\",\"full_name\":\"Boniva 3MG/3ML solution\",\"href\":\"https://api.covermymeds.com/drugs/169220\",\"representative_ndc\":\"00004019109\"}}",
+      "headers": {
+        "Date": "Thu, 29 Dec 2016 23:52:17 GMT",
+        "Server": "Apache/2.2.15 (Red Hat)",
+        "Cache-Control": "max-age=0, private, must-revalidate",
+        "Strict-Transport-Security": "max-age=31536000",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Request-Id": "937ed647-2e18-4450-bc8a-8bcc0c910a6a",
+        "ETag": "\"31e0b2151285a4173893b4dabc84a962\"",
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-Runtime": "0.008787",
+        "X-Content-Type-Options": "nosniff",
+        "X-Powered-By": "Phusion Passenger Enterprise 5.0.30",
+        "Status": "200 OK",
+        "X-Cnection": "close",
+        "Transfer-Encoding": "chunked",
+        "Content-Type": "application/json; charset=utf-8",
+        "Set-Cookie": "BIGipServerpool_api_drugs=2324146368.47873.0000; path=/"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]
