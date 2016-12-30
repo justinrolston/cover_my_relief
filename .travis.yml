@@ -13,3 +13,11 @@ install:
   - mix compile
 script:
   - mix test
+matrix:
+  exclude:
+    - otp_release: 19.0
+      elixir: 1.0.5
+    - otp_release: 19.0
+      elixir: 1.1.1
+    - otp_release: 19.0
+      elixir: 1.2.5
