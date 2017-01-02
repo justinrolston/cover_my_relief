@@ -4,7 +4,6 @@ defmodule CoverMyRelief do
   @version "1"
 
   def drug_search api_client, query do
-    HTTPoison.start
     response = HTTPoison.get! "#{@api_site}/drugs/?api_id=#{api_client.id}&q=#{query}&v=#{@version}"
     response.body |> 
         Poison.Parser.parse! |> 
@@ -12,7 +11,6 @@ defmodule CoverMyRelief do
   end
 
   def get_drug api_client, drug_id do
-    HTTPoison.start  
     response = HTTPoison.get! "#{@api_site}/drugs/#{drug_id}/?api_id=#{api_client.id}&v=#{@version}"
     response.body |> 
         Poison.Parser.parse! 
